@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RadioPlayer = () => {
-    retunr (
+    return (
         <div id="radio" className="text-center my-5">
             <h2>Ouça a Rádio</h2>
             <audio controls>
