@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       <Header />
-      <RadioPlayer />
+      <RadioPlayer /> 
       <Footer />
     </div>
   );
