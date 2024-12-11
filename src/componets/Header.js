@@ -2,15 +2,15 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <section class="navigation">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-muted">
       <div className="container">
-        <a className="navbar-brand" href="#">Rádio Web Diário Digital</a>
+        <a id="diarioh1">Diário Digital</a>
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-        >
+          data-bs-target="#navbarNav">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
@@ -28,6 +28,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </section>
   );
 };
 

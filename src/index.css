@@ -1,11 +1,25 @@
 :root {
-  --primary-color: #003566;
+  --primary-color: #0053a0;
   --secondary-color: #FFD700;
   --text-color: #ffffff;
 }
 
+.titulo {
+  color: white;
+}
+
+#diarioh1 {
+  font-size: 1.5rem;
+}
+
+#tituloslide {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+
 body {
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  background: linear-gradient(130deg, var(--primary-color) 0%, var(--secondary-color) 100%);
   color: var(--text-color);
   font-family: 'Roboto', sans-serif;
 }
@@ -52,3 +66,33 @@ button:hover {
 .social-icon:hover {
   color: var(--secondary-color);
 }
+
+/* Footer estilizado */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.carousel-item img {
+  max-height: 400px; /* Ajuste a altura das imagens */
+  object-fit: cover; /* Garante que as imagens se ajustem ao tamanho sem distorcer */
+}
+
+.carousel-indicators button {
+  background-color: #c7c7c7be; /* Cor secundária ou outro que combine com a paleta de cores do site */
+  transition: color 0.3s ease;
+}
+
+.carousel-indicators button:hover {
+  background-color: #FFD700;
+  transition-duration: 2s;
+  
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
